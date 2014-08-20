@@ -22,6 +22,7 @@
 		C870AEAD19A38BB50054CC8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C870AEAB19A38BB50054CC8F /* InfoPlist.strings */; };
 		C870AEAF19A38BB50054CC8F /* NoUnrecognizedSelectorExceptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C870AEAE19A38BB50054CC8F /* NoUnrecognizedSelectorExceptionTests.m */; };
 		C870AEBB19A38D2C0054CC8F /* UIButton+NoUnrecognizedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = C870AEBA19A38D2C0054CC8F /* UIButton+NoUnrecognizedSelector.m */; };
+		C87EF05119A41E5E00421D5C /* NSObject+NoUnrecognizedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = C87EF05019A41E5E00421D5C /* NSObject+NoUnrecognizedSelector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C870AEB819A38BE40054CC8F /* NoUnrecognizedSelectorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoUnrecognizedSelectorMacro.h; sourceTree = "<group>"; };
 		C870AEB919A38D2C0054CC8F /* UIButton+NoUnrecognizedSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NoUnrecognizedSelector.h"; sourceTree = "<group>"; };
 		C870AEBA19A38D2C0054CC8F /* UIButton+NoUnrecognizedSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NoUnrecognizedSelector.m"; sourceTree = "<group>"; };
+		C87EF04F19A41E5E00421D5C /* NSObject+NoUnrecognizedSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NoUnrecognizedSelector.h"; sourceTree = "<group>"; };
+		C87EF05019A41E5E00421D5C /* NSObject+NoUnrecognizedSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NoUnrecognizedSelector.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				C870AE9519A38BB50054CC8F /* Main.storyboard */,
 				C870AE9819A38BB50054CC8F /* NoUnrecognizedSelectorViewController.h */,
 				C870AE9919A38BB50054CC8F /* NoUnrecognizedSelectorViewController.m */,
+				C87EF04F19A41E5E00421D5C /* NSObject+NoUnrecognizedSelector.h */,
+				C87EF05019A41E5E00421D5C /* NSObject+NoUnrecognizedSelector.m */,
 				C870AEB919A38D2C0054CC8F /* UIButton+NoUnrecognizedSelector.h */,
 				C870AEBA19A38D2C0054CC8F /* UIButton+NoUnrecognizedSelector.m */,
 				C870AE9B19A38BB50054CC8F /* Images.xcassets */,
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87EF05119A41E5E00421D5C /* NSObject+NoUnrecognizedSelector.m in Sources */,
 				C870AEBB19A38D2C0054CC8F /* UIButton+NoUnrecognizedSelector.m in Sources */,
 				C870AE9019A38BB50054CC8F /* main.m in Sources */,
 				C870AE9A19A38BB50054CC8F /* NoUnrecognizedSelectorViewController.m in Sources */,
@@ -465,6 +471,7 @@
 				C870AEB419A38BB50054CC8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C870AEB519A38BB50054CC8F /* Build configuration list for PBXNativeTarget "NoUnrecognizedSelectorExceptionTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				C870AEB719A38BB50054CC8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

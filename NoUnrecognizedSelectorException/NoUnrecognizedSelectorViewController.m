@@ -39,4 +39,8 @@ NO_UNRECOGNIZED_SELECTOR
     [self.btnCategory performSelector:@selector(unrecognizedSelector:) withObject:@0];
 }
 
+- (IBAction)nsobjectCategoryAction:(id)sender {
+    [self performSelector:@selector(unrecognizedSelector:withObject:) withObject:@0 withObject:@0];
+}
+
 @end
