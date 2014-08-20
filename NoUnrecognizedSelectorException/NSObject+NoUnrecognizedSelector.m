@@ -12,7 +12,7 @@
 @implementation NSObject (NoUnrecognizedSelector)
 
 -(id)emptyMethod:(SEL) sel {
-    printf("unrecoginzed selector occurs!(class = %s, method = %s\n\n)", class_getName([self class]), sel_getName(sel));
+    printf("unrecoginzed selector occurs!(class = %s, method = %s)\n\n", class_getName([self class]), sel_getName(sel));
     return nil;
 }
 

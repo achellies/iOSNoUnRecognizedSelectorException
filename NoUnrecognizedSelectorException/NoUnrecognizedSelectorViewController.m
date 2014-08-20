@@ -40,6 +40,7 @@ NO_UNRECOGNIZED_SELECTOR
 }
 
 - (IBAction)nsobjectCategoryAction:(id)sender {
+    [self performSelector:@selector(unrecognizedSelector)];
     [self performSelector:@selector(unrecognizedSelector:withObject:) withObject:@0 withObject:@0];
 }
 
