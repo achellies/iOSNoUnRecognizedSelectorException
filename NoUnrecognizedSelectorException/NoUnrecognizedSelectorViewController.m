@@ -7,7 +7,7 @@
 //
 
 #import "NoUnrecognizedSelectorViewController.h"
-#import "NoUnrecognizedSelectorMacro.h"
+//#import "NoUnrecognizedSelectorMacro.h"
 #import "UIButton+NoUnrecognizedSelector.h"
 
 @interface NoUnrecognizedSelectorViewController ()
@@ -16,7 +16,7 @@
 
 @implementation NoUnrecognizedSelectorViewController
 
-NO_UNRECOGNIZED_SELECTOR
+//NO_UNRECOGNIZED_SELECTOR
 
 - (void)viewDidLoad
 {
